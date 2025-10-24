@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elon Musk | Projects</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #283048, #859398);
+      color: #fff;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: #00d4ff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 40px;
+      text-align: center;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .card:hover {
+      transform: translateY(-8px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 280px;
+      object-fit: cover;
+    }
+    .card h3 {
+      color: #00d4ff;
+      margin-top: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.7);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <section class="projects">
+    <div class="card">
+      <img src="https://media.wired.com/photos/5d2d09439a6762000863bf47/3:2/w_1600%2Cc_limit/Science_Starship_43895099655_64490f5eed_k.jpg" alt="SpaceX Rocket">
+      <h3>SpaceX</h3>
+      <p>Revolutionizing space travel with reusable rockets and the dream of colonizing Mars.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://c.files.bbci.co.uk/1b1f/live/57cf8850-3881-11ef-b390-fb401932e653.jpg" alt="Tesla Car">
+      <h3>Tesla Motors</h3>
+      <p>Leading the electric vehicle revolution with sustainable energy and innovation.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://medicaldeviceregistry.com/wp-content/uploads/2024/04/Neuralink-Brain-Implant-Medical-Device.jpg" alt="Neuralink">
+      <h3>Neuralink</h3>
+      <p>Bridging the gap between human brains and AI through neural interface technology.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Elon Musk | Projects Showcase
+  </footer>
+</body>
+</html>
